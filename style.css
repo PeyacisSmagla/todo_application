@@ -1,53 +1,144 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
-.image-one {
-    height: 40px;
-    width: 50px;
-}
-
-#nav-text-color1 {
-    color: #323f4b;
-}
-
-#nav-text-color2 {
-    color: #323f4b;
-}
-
-#nav-text-color3 {
-    color: #323f4b;
-}
-
-#nav-text-color4 {
-    color: #323f4b;
-}
-
-.background-one {
-    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-banner-bg.png");
+.todos-bg-container {
+    background-color: #f9fbfe;
+    background-image: url("https://img.freepik.com/free-photo/top-view-brushes-classic-blue-canvas_23-2148381443.jpg?w=740&t=st=1700751501~exp=1700752101~hmac=dd2dfd79ff7c022e926ba0382ff1c8afd0d53c4457474b32b213f0adba3d98aa");
     background-size: cover;
-    height: 100vh;
+    height: 140vh;
+    width: 100%;
 }
 
-.heading {
-    color: white;
-    font-size: 35px;
+.todos-heading {
+    text-align: center;
     font-family: "Roboto";
+    color: white;
+    font-size: 46px;
     font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.create-task-heading {
+    font-family: "Roboto";
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.create-task-heading-subpart {
+    font-family: "Roboto";
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.todo-items-heading {
+    font-family: "Roboto";
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.todo-items-heading-subpart {
+    font-family: "Roboto";
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.todo-items-container {
+    margin: 0px;
+    padding: 0px;
+}
+
+.todo-item-container {
+    margin-top: 15px;
+}
+
+.todo-user-input {
+    background-color: white;
+    width: 70%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e7eb;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px;
 }
 
 .button {
     color: white;
-    background-color: #1a2137;
-    height: 40px;
-    width: 100px;
+    background-color: #4c63b6;
+    font-family: "Roboto";
+    text-align: center;
+    font-size: 18px;
+    border-width: 0px;
+    border-radius: 4px;
     margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
-@media all and (min-width: 768px) {
-    .button {
-        margin-top: 30px;
-        border-width: 0px;
-        border-style: solid;
-    }
-    .heading {
-        font-size: 47px;
-    }
+
+.label-container {
+    background-color: #e6f6ff;
+    width: 67.5%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #096f92;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 4px;
 }
+
+.checkbox-input {
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+.checkbox-label {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    width: 82%;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.delete-icon-container {
+    text-align: right;
+    width: 18%;
+}
+
+.delete-icon {
+    padding: 15px;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+.saved-msg {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: -38px;
+}
+
+
+
+
+
+
