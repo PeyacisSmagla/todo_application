@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
 .todos-bg-container {
-    background-color: #f9fbfe;
-    background-image: url("https://img.freepik.com/free-photo/top-view-brushes-classic-blue-canvas_23-2148381443.jpg?w=740&t=st=1700751501~exp=1700752101~hmac=dd2dfd79ff7c022e926ba0382ff1c8afd0d53c4457474b32b213f0adba3d98aa");
+    background-image: linear-gradient(to bottom, #02AABD    , #D8B5FF ) ;
     background-size: cover;
     height: 140vh;
     width: 100%;
@@ -103,6 +102,7 @@
     height: 20px;
     margin-top: 12px;
     margin-right: 12px;
+    border-radius: 50%;
 }
 
 .checkbox-label {

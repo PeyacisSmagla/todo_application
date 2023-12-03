@@ -86,7 +86,7 @@ function createAndAppendTodo(todo) {
     let inputElement = document.createElement("input");
     inputElement.type = "checkbox";
     inputElement.id = checkboxId;
-    inputElement.classList.add("checkbox-input");
+    inputElement.classList.add("checkbox-input","shadow");
     inputElement.checked = todo.isChecked;
 
     inputElement.onclick = function() {
